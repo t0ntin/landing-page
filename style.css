@@ -13,13 +13,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 
 
 }
 
 a {
   text-decoration: none;
-
+  font-size: 18px;
 }
 
 header {
@@ -28,6 +29,8 @@ header {
   background-color: #1F2937;
   height: 50px;
   padding: 10px 0px;
+  /* width: 100%; */
+
 }
 
 .logo, .header-link {
@@ -36,6 +39,7 @@ header {
 
 .logo {
   font-size: 24px;
+  font-weight: 900;
 }
 
 ul {
@@ -56,6 +60,7 @@ ul {
 .hero-title {
   font-size: 48px;
   color: #F9FAF8;
+  font-weight: 900;
 }
 
 .hero-subtext {
@@ -74,8 +79,35 @@ button {
   margin-top: 8px;
 }
 
-img {
+.hero-image {
   width: 300px;
+}
+
+
+
+h2 {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.card-container {
+  display: flex;
+  gap: 45px;
+  text-align: center;
+
+}
+
+.card {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card img {
+  width: 120px;
+  border: 2px solid #3882F6;
+  border-radius: 10px;
 }
 
 footer {
@@ -83,9 +115,55 @@ footer {
   background-color: #1F2937;
 }
 
+.testimonial {
+  background-color: #E5E7EB;
+  padding: 55px;
+  margin-top: 40px;
+}
+
+.testimonial-text{
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+}
+
+.testimonial-author {
+  font-size: 24px;
+  color: #1F2937;
+  text-align: right;
+  font-weight: bold;
+}
+
+.signup {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0px;
+}
 
 
-/* CALL TO ACTION COLOR  #3882F6
-INFORMATION HEADER TEXT 36PX EXTRA-BOLD #1F2937
-QUOTE SECTION BG COLOR #E5E7EB
-QUOTE TEXT 36PX LIGHT ITALIC # 1F2937  */
+.signup-container {
+  display: flex;
+  background-color: #3882F6;
+  border-radius: 10px;
+  padding: 25px 40px;
+
+}
+
+.signup-header, .signup-text {
+  color: white;
+}
+
+.call-to-action-button {
+  color: white;
+  background-color: #3882F6;
+  border: 1px solid white;
+  margin-left: 50px;
+  font-weight: bold;
+}
+
+.signup-header {
+  font-size: 20px;
+  font-weight: bold;
+}
