@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* height: 100vh; */
+  /* overflow: hidden; */
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  height: 50px;
+  padding: 10px 0px;
+}
+
+.logo, .header-link {
+  color: #F9FAF8;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  /* padding: 0px 0px 0px 10px; */
+}
+
+.hero {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: #1F2937;
+  height: 280px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-top: 8px;
+
+}
+
+button {
+  background-color: #3882F6;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin-top: 8px;
+}
+
+img {
+  width: 300px;
+}
+
+footer {
+  display: flex;
+  background-color: #1F2937;
+}
+
+
+
+/* CALL TO ACTION COLOR  #3882F6
+INFORMATION HEADER TEXT 36PX EXTRA-BOLD #1F2937
+QUOTE SECTION BG COLOR #E5E7EB
+QUOTE TEXT 36PX LIGHT ITALIC # 1F2937  */
